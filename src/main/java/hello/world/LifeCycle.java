@@ -1,7 +1,6 @@
 package hello.world;
 
 import io.micronaut.context.annotation.Context;
-
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 import javax.inject.Singleton;
