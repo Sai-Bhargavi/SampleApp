@@ -1,7 +1,12 @@
+logger:
+  levels:
+    io.micronaut.runtime.Micronaut: DEBUG
+
 micronaut:
   application:
     name: helloWorld
   server:
+    host: localhost
     port: 8081
 
 grpc:
